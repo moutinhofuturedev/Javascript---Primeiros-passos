@@ -14,5 +14,13 @@ console.log(nome + ' ' + sobrenome)
 console.log( `Meu nome é ${nome}` ) //Meu nome é Paulo
 console.log(`Meu nome é ${nome + ' ' +sobrenome}`) //Meu nome é Paulo Moutinho
 console.log(`Meu nome é ${nome} ${sobrenome}`) //Meu nome é Paulo Moutinho
+console.log(`Meu nome é ${nome} ${sobrenome} e tenho ${idade} anos.`)
+
+
+//outro tipo de variável (let)
+let contador = 4
+contador = contador + 5
+
+console.log(contador) //resultado imprimido ( 9 )
 
 

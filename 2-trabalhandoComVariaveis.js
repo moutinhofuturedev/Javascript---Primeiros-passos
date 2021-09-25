@@ -1,6 +1,6 @@
 console.log('Trabalhando com variáveis');
 
-// variáveis com valor 'tipo texto' ,precisam ser colocadas dentro de arrays.Ex: ( 'Paulo' ).
+// variáveis com valor 'tipo texto' ,precisam ser colocadas dentro de strings.Ex: ( 'Paulo' ).
 const nome = 'Paulo'
 const sobrenome = 'Moutinho'
 

@@ -8,3 +8,4 @@ console.log((10 + 2) * 8)
 
 //texto com número
 console.log( 'ano' + 2021)
+console.log('ano'+ ' de ' + 2021)
