@@ -21,6 +21,7 @@ listaDeDestinos.push(`Cutia`) //adicionando itens na lista com a função (.push
 console.log('Destinos Possíveis:')
 console.log(listaDeDestinos)
 
+
 //Sala de cinema
 const listaDeFilmes = new Array(
     'Poderoso Chefão',
@@ -31,4 +32,25 @@ const listaDeFilmes = new Array(
 )
 
 console.log(`Lista de filmes hoje á noite`)
-console.log(listaDeFilmes)
+console.log( listaDeFilmes )
+
+listaDeFilmes.splice(4) //usando o objeto splice para remover o item (4) da lista. (Velozos e Furiosos) - rgemovido
+console.log( listaDeFilmes )
+
+
+//Escolas de programação
+const escolasTechs = new Array(
+    `Alura`,
+    `DIO`,
+    `Gama Academy`,
+    `Cubos Academy`,
+    `IGTI`,
+    `Let´s Code`
+)
+
+console.log(`As principais techs de programação:`)
+console.log( escolasTechs )
+
+console.log(escolasTechs[1]) //colocando [1] eu imprimo apenas o segundo item da lista (DIO)
+console.log(escolasTechs[1] + ' e ' + escolasTechs[5]) //impressão - DIO e Let´s Code
+
