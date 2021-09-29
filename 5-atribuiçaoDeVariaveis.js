@@ -23,4 +23,3 @@ contador = contador + 5
 
 console.log(contador) //resultado imprimido ( 9 )
 
-
