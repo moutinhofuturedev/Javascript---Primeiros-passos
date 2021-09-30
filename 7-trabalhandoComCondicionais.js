@@ -8,16 +8,16 @@ const listaDeViagens = new Array(
     'Japão',
 )
 
-const idadeComprador = 21
+const idadeComprador = 15
 
 console.log('Destinos possíveis:')
 console.log(listaDeViagens)
 
 if (idadeComprador >= 21) {
     console.log('Comprador maior de idade')
-    listaDeViagens.splice(4)
+    listaDeViagens.splice(4, 1)
 } else {
-    console.log('Menor de idade não posso vender')
+    console.log('Menor de idade: não posso vender')
 }
 
 console.log(listaDeViagens)

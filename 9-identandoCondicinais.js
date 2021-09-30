@@ -7,7 +7,7 @@ const listaDeFilmes = new Array(
     `Prenda-me se for capaz`
 )
 
-const idadeDoUsuario = 18
+const idadeDoUsuario = 12
 const estaAcompanhada = true
 const filmeComprado = true
 
@@ -23,17 +23,11 @@ if (
 } else {
     console.log('Menor de idade não acompanhado.Filme proibido para menores de 16 anos.')
 }
-
-console.log('Estatus da sua compra: \n\n') // \n\n significa pular uma linha no terminal
-if (idadeDoUsuario >= 18 && filmeComprado ){ // && significa 'e'
-console.log('Ótima compra!')
+//status da compra
+console.log('Status da sua compra: \n\n')  // \n\n significa uma linha de espaço abaixo
+if (idadeDoUsuario >= 18  || estaAcompanhada == true && filmeComprado){ // '&&' significa 'e'
+    console.log('Ótima compra.Aproveite o filme!')
 }else{
-    console.log('Filme não pago.Conclua a compra')
+    console.log('Filme não pago.Conclua a sua compra.')
+    console.log( listaDeFilmes  )
 }
-
-/* O que aprendemos nessa aula:
-If e Else
-Operadores lógicos
-if encadeado
-else if
-&& e || */
