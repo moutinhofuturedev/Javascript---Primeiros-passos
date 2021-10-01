@@ -1,4 +1,4 @@
-console.log('Teste de aprendizado')
+console.log('Teste de aprendizado com while (enquanto) e contador')
 
 const pasteis = new Array(
     'Carne',
@@ -9,7 +9,7 @@ const pasteis = new Array(
 
 const listaDePasteis = 'Carne com queijo'
 
-let contador = 1
+let contador = 0
 while(contador < 4){
     if(pasteis[contador] == listaDePasteis){
         console.log('Pastel na lista.')
