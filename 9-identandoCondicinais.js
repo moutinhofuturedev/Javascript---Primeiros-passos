@@ -8,8 +8,8 @@ const listaDeFilmes = new Array(
 )
 
 const idadeDoUsuario = 12
-const estaAcompanhada = true
-const filmeComprado = true
+const estaAcompanhada = false
+const filmeComprado = false
 
 console.log('Filmes para assistir:')
 console.log(listaDeFilmes)
@@ -22,6 +22,7 @@ if (
     console.log(listaDeFilmes)
 } else {
     console.log('Menor de idade não acompanhado.Filme proibido para menores de 16 anos.')
+    
 }
 //status da compra
 console.log('Status da sua compra: \n\n')  // \n\n significa uma linha de espaço abaixo

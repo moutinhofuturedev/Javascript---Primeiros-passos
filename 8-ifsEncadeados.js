@@ -19,7 +19,7 @@ if (idadeDoUsuario >= 18) {
     console.log('Curta o filme!!!')
     listaDeFilmes.splice(3, 1) //linha 20: código dupilcado com linha 26 (evitar código duplicado)
     console.log(listaDeFilmes)
-} else {
+} else {//executar outra verificação
     //bloco do menor de idade
     if (estaAcompanhada == true) {
         console.log('Menor de idade acompanhado.Curta o filme!!!')

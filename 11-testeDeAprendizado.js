@@ -7,14 +7,23 @@ const pasteis = new Array(
     'Pizza'
 )
 
-const listaDePasteis = 'Carne com queijo'
+const listaDePasteis = 'Carne com queijo' 
 
-let contador = 0
-while(contador < 4){
-    if(pasteis[contador] == listaDePasteis){
+let contador = 2
+let existePastel = false
+
+while (contador < 4) {
+    if (pasteis[contador] == listaDePasteis) {
         console.log('Pastel na lista.')
-    }else{
-console.log('Pastel não está na lista.')
+        existePastel = true
+        break
+    } else { // está condição  não está fumcionando: verificar pra arrumar
+        console.log('Pastel não está na lista.')
+        break
+        existePastel = false
     }
     contador += 1
 }
+
+console.log('Existe pastel:',existePastel)
+
