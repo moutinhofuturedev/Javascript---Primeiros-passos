@@ -25,10 +25,10 @@ if (
     
 }
 //status da compra
-console.log('Status da sua compra: \n\n')  // \n\n significa uma linha de espaço abaixo
-if (idadeDoUsuario >= 18  || estaAcompanhada == true && filmeComprado){ // '&&' significa 'e'
+console.log('Status da sua compra: \n\n') // \n\n significa uma linha de espaço abaixo
+if (idadeDoUsuario >= 18 || estaAcompanhada == true && filmeComprado) { // '&&' significa 'e'
     console.log('Ótima compra.Aproveite o filme!')
-}else{
+} else {
     console.log('Filme não pago.Conclua a sua compra.')
-    console.log( listaDeFilmes  )
+    console.log(listaDeFilmes)
 }

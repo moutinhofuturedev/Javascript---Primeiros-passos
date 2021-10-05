@@ -9,8 +9,7 @@ const listaDeFilmes = new Array(
 )
 
 const idadeDoUsuario = 12
-
-const estaAcompanhada = true
+const estaAcompanhada = false
 
 console.log('Filmes para assistir:')
 console.log(listaDeFilmes)
